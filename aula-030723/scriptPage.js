@@ -1,0 +1,1 @@
+alert("Arquivo externo - Executando JS no nav")
