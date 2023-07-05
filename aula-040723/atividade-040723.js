@@ -28,12 +28,12 @@ console.log(verificacao)
 //Faça um programa que calcule a área de um triângulo com base e altura.
 let base = 5;
 let altura = 8;
-let calcArea = (base*altura) / 2;
+let calcArea = (base * altura) / 2;
 let saida1 = "\nA área do triângulo é igual a " + calcArea;
 console.log(saida1);
 
 //Escreva um programa que converta uma temperatura de graus Celsius para Fahrenheit.
-let celsius = 30;
+let celsius = 36;
 let fahrenheit = (celsius * (9/5)) + 32;
 let conversao = "\n" + celsius + "°C = " + fahrenheit + "°F";
 console.log(conversao);
