@@ -12,8 +12,11 @@ else {
 }
 
 //Crie um programa que receba a idade de uma pessoa e verifique se ela é maior de idade (18 anos ou mais) ou menor de idade.
-let idade = 18;
-if (idade < 18) {
+let idade = 160;
+if(idade < 0 || idade > 150) {
+    console.log("Idade inválida.")
+}
+else if (idade < 18) {
     console.log ("A pessoa é menor de idade, pois tem " + idade + " anos.")
 }
 else {
@@ -22,8 +25,8 @@ else {
 
 //Escreva um programa que receba três números e determine qual deles é o maior.
 let num1 = 12;
-let num2 = 10;
-let num3 = 9;
+let num2 = 12;
+let num3 = 25;
 
 if (num1 > num2 && num1 > num3) {
     if (num2 > num3) {
@@ -43,13 +46,17 @@ else if (num2 > num1 && num2 > num3) {
     }
 }
 
-else {
+else if (num3 > num1 && num3 > num2) {
     if (num1 > num2) {
         console.log (num3 + " > " + num1 + " > " + num2)
     }
     else {
         console.log (num3 + " > " + num2 + " > " + num1)
     }
+}
+
+else {
+    console.log("O maior número esta duplicado");
 }
 
 //Crie um programa que receba dois números e verifique se seu produto é par ou ímpar.
@@ -65,13 +72,16 @@ else {
 }
 
 //Escreva um programa que receba o nome de um dia da semana e exiba se é um dia útil ou um fim de semana.
-let dia = "sábado";
+let dia = "kdkskds";
 
 if(dia == "segunda-feira" || dia == "terça-feira" || dia == "quarta-feira" || dia == "quinta-feira" || dia == "sexta-feira") {
     console.log (dia + " é um dia útil.")
 }
-else {
+else if (dia == "sábado" || dia == "domingo") {
     console.log (dia + " é um dia do final de semana.")
+}
+else {
+    console.log ("Entrada inválida")
 }
 
 //Faça um programa que receba um número de 1 a 7 e exiba o dia da semana correspondente (1 - domingo, 2 - segunda-feira, etc.).
@@ -96,6 +106,6 @@ switch(day) {
         console.log("6 - Sexta-feira");
         break;
     case 7:
-        console.log("7 - Sábado-feira");
+        console.log("7 - Sábado");
         break;    
 }
