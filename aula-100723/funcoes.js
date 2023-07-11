@@ -83,3 +83,4 @@ console.log(Math.round(2.4989)); // arredonda para o equivalente, mais próximo
 console.log(Math.sqrt(625)); //raiz quadrada
 console.log(Math.abs(-8)); //valor absoluto
 console.log(Math.random()); // numero randomico entre 0 e 1 [0, 1[
+    
