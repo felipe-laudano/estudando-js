@@ -77,7 +77,7 @@ let texto4 = `   Felipe     `;
 console.log(`Com espaços: ` + texto4)
 console.log(`Sem espaços: ` + texto4.trim());
 
-//Inverta uma string. Uitilize o laço for.
+//Inverta uma string. Utilize o laço for.
 let texto5 = `Felipe`;
 let contrario = ``;
 for(let i = texto5.length-1; i >= 0; i--) {
