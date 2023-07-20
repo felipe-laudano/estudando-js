@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo</title>
+    <style>
+        #semaforo {
+            display: flex;
+            justify-content: center;
+            /* margin: 100px; */
+        }
+        #semaforo img {
+            width: 200px;
+        }
+
+        #botoes button {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 50%;
+            border-bottom: black;
+        }
+        #vermelho {
+            background-color: red;
+        }
+        #amarelo {
+            background-color: yellow;
+        }
+        #verde {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="semaforo">
+        <img id="img" src="images/amarelo.png" alt="amarelo">
+    </div>
+
+    <div id="botoes">
+        <button id="vermelho"></button>
+        <button id="amarelo"></button>
+        <button id="verde"></button>
+        <button id="automatic">Modo automático</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
