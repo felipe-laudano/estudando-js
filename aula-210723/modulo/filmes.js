@@ -62,5 +62,6 @@ export const melhoresFilmes = [
 ];
 
 //exemplo de um export de uma função
-/**export function buscarFilme(id) {
-    console.log("Buscando filme com id", id); }*/
+export function buscarFilme(id) {
+    console.log("Buscando filme com id", id); 
+}
